@@ -19,8 +19,9 @@ namespace BPM1.Controllers
         {
 
 
-            
-          
+
+            int a = 1;
+            a = a++;
 
 
             var list = _db.FlowTemplate.ToList();
