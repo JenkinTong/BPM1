@@ -17,20 +17,10 @@ namespace BPM1.Controllers
 
         public IActionResult Index()
         {
-
-
-
-            int a = 1;
-            if (a > 0)
-            {
-                a++;
-            }
-            else
-            {
-                a = 1;
-            }
+             
 
             var list = _db.FlowTemplate.ToList();
+            ViewData.Model = list;
             return View();
         }
     }
