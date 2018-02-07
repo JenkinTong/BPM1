@@ -20,19 +20,14 @@ namespace BPM1.Controllers
 
 
 
-            int a = 0;
-
+            int a = 1;
             if (a > 0)
             {
                 a++;
             }
             else
             {
-                a--;
-                if (a <= 0)
-                {
-                    a = 1;
-                }
+                a = 1;
             }
 
             var list = _db.FlowTemplate.ToList();
