@@ -18,8 +18,9 @@ namespace BPM1.Controllers
         public IActionResult Index()
         {
 
+
             
-            var a = _db.FlowAction.ToList();
+          
 
 
             var list = _db.FlowTemplate.ToList();
