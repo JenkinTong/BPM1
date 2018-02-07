@@ -18,6 +18,8 @@ namespace BPM.Repository
 
         public DbSet<FlowInstance> FlowInstance { get; set; }
 
+        public DbSet<FlowStep> FlowStep { get; set; }
+
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
